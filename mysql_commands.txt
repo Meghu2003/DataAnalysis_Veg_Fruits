@@ -1,0 +1,6 @@
+create database CONSUMER_GOODS;
+use CONSUMER_GOODS;
+create table Veg_Fru_WholesaleRate(Name varchar(90),Rate_perkg int);
+create table ConsumptionRate_1(Region varchar(90),Mean_Veg_Fru_intake int);
+insert into Veg_Fru_WholesaleRate values("Beans",25),("Cabbage",8),("Capsicum",20),("Onion",28),("Ginger",48),("Apple",80),("WaterMelon",10),("Orange",20),("Mango",180),("Grapes",30);
+insert into ConsumptionRate_1 values("North India",279),("North-East India",217),("East India",435),("South India",305),("West India",256),("India",238);
